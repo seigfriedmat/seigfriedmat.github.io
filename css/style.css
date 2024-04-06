@@ -3,10 +3,6 @@ body {
   overflow-x: hidden;
 }
 
-li {
-  text-align: left;
-}
-
 .layout_margin {
   margin-top: 90px;
   margin-bottom: 90px;
