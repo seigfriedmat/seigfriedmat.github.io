@@ -62,14 +62,3 @@ $('.slider_btn_next').on('click', function (e) {
     $('.slider_text_carousel').carousel('next')
     $('.slider_image_carousel').carousel('next')
 })
-
-
-/** google_map js **/
-
-function myMap() {
-    var mapProp = {
-        center: new google.maps.LatLng(40.712775, -74.005973),
-        zoom: 18,
-    };
-    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-}
